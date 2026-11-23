@@ -25,6 +25,7 @@ jobs:
           cp -r assets _site/
           cp trail.js nav.js matrix.js _site/
           cp *.pdf _site/
+          cp *.png _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
