@@ -26,6 +26,7 @@ jobs:
           cp trail.js nav.js matrix.js _site/
           cp *.pdf _site/
           cp *.png _site/
+          cp robots.txt sitemap.xml _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
