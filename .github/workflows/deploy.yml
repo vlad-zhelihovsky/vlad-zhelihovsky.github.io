@@ -23,7 +23,7 @@ jobs:
           mkdir _site
           cp index.html .nojekyll _site/
           cp -r assets ru _site/
-          cp trail.js nav.js matrix.js weather.js terminal.js touch.js _site/
+          cp trail.js nav.js matrix.js weather.js terminal.js touch.js clocks.js _site/
           cp *.pdf _site/
           cp *.png _site/
           cp robots.txt sitemap.xml _site/
